@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 4px solid #151815; 
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .light-theme {
+    background-color: #ffffff;
+    --button-bg-color: #050303;
+    --button-text-color: #fff;
+  }
+  
+  .dark-theme {
+    background-color: #0a0404;
+    --button-bg-color: #fff;
+    --button-text-color: #0e0404;
+  }
